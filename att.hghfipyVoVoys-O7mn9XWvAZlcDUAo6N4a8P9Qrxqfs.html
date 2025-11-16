@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="vi">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Tiểu sử - Trương Thị Lan Anh</title>
+  <style>
+    body{font-family: "Helvetica Neue", Arial, sans-serif; background:#f5f7fb; color:#102027; margin:0; padding:20px;}
+    .container{max-width:800px;margin:32px auto;background:white;padding:24px;border-radius:10px;box-shadow:0 8px 24px rgba(16,32,39,0.06);}
+    h1{margin-top:0;color:#0b3b58}
+    h2{margin-bottom:6px;color:#0b3b58}
+    ol.section{padding-left:18px}
+    .meta{background:#f0f6fb;padding:12px;border-radius:8px;margin-bottom:14px}
+    li{margin:6px 0}
+    .small{color:#5a6b75;font-size:14px}
+    footer{margin-top:18px;text-align:center;color:#6b7a80;font-size:13px}
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>Tiểu sử — Trương Thị Lan Anh</h1>
+      <p class="small">Trang cá nhân đơn giản hiển thị thông tin cơ bản.</p>
+    </header>
+
+    <section id="i">
+      <h2>I. Tiểu sử</h2>
+      <div class="meta">
+        <ol>
+          <li><strong>Họ và tên:</strong> Trương Thị Lan Anh</li>
+          <li><strong>Ngày sinh:</strong> 05/03/2008</li>
+          <li><strong>Quê quán:</strong> Mai Động, Phù Khê, Bắc Ninh</li> <a href=''https://tpbacninh.bacninh.gov.vn/viet-ve-thanh-pho/">Bắc Ninh</a></p>
+          
+        </ol>
+      </div>
+    </section>
+
+    <section id="ii">
+      <h2>II. Quá trình học tập</h2>
+      <p class="small">(Bạn có thể thêm chi tiết về các trường, năm học, bằng cấp hoặc thành tích ở phần này.)</p>
+      <ul>
+        <li>— (Chưa có thông tin chi tiết)</li>
+      </ul>
+    </section>
+
+    <section id="iii">
+      <h2>III. Sở thích</h2>
+      <ol>
+        <li>Nằm bấm điện thoại</li>
+    
+        <li>Ngủ</li>
+      </ol>
+    </section>
+
+    <footer>
+      © Trương Thị Lan Anh — <span id="year"></span>
+    </footer>
+  </div>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
